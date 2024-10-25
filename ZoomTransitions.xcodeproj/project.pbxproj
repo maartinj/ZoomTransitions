@@ -14,6 +14,7 @@
 		E41B8D1B2CCBE2BD0042FD90 /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B8D142CCBE2BD0042FD90 /* MyImage.swift */; };
 		E41B8D1C2CCBE2BD0042FD90 /* ZoomTransitionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B8D152CCBE2BD0042FD90 /* ZoomTransitionsApp.swift */; };
 		E41B8D1F2CCBE3C60042FD90 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B8D1E2CCBE3C60042FD90 /* DetailView.swift */; };
+		E41B8D212CCBE6F80042FD90 /* DetailView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B8D202CCBE6F80042FD90 /* DetailView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E41B8D142CCBE2BD0042FD90 /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
 		E41B8D152CCBE2BD0042FD90 /* ZoomTransitionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomTransitionsApp.swift; sourceTree = "<group>"; };
 		E41B8D1E2CCBE3C60042FD90 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E41B8D202CCBE6F80042FD90 /* DetailView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			children = (
 				E41B8D102CCBE2BD0042FD90 /* PhotoGridView.swift */,
 				E41B8D1E2CCBE3C60042FD90 /* DetailView.swift */,
+				E41B8D202CCBE6F80042FD90 /* DetailView2.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				E41B8D1A2CCBE2BD0042FD90 /* PhotoGridView.swift in Sources */,
 				E41B8D1F2CCBE3C60042FD90 /* DetailView.swift in Sources */,
 				E41B8D1B2CCBE2BD0042FD90 /* MyImage.swift in Sources */,
+				E41B8D212CCBE6F80042FD90 /* DetailView2.swift in Sources */,
 				E41B8D1C2CCBE2BD0042FD90 /* ZoomTransitionsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

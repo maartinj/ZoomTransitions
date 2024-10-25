@@ -17,9 +17,14 @@ import SwiftUI
 
 struct PhotoGridView: View {
     @Namespace private var transitionNamespace
+    @State private var fullOption = true
     let columns = [GridItem(.adaptive(minimum: 175))]
     var body: some View {
         NavigationStack {
+            Picker("Choose", selection: $fullOption) {
+                Text("Full").tag(true)
+                Text("Detail").tag(false)
+            }
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 20) {
                     ForEach(MyImage.samples) { photo in
@@ -36,8 +41,12 @@ struct PhotoGridView: View {
                 }
             }
             .navigationDestination(for: MyImage.self) { image in
-                DetailView(image: image)
-                    .navigationTransition(.zoom(sourceID: image, in: transitionNamespace))
+                if fullOption {
+                    DetailView(image: image)
+                        .navigationTransition(.zoom(sourceID: image, in: transitionNamespace))
+                } else {
+                    DetailView2(image: image, transitionNamespace: transitionNamespace)
+                }
             }
             .navigationTitle("My Images")
             .padding()
