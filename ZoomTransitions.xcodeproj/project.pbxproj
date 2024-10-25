@@ -13,6 +13,7 @@
 		E41B8D1A2CCBE2BD0042FD90 /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B8D102CCBE2BD0042FD90 /* PhotoGridView.swift */; };
 		E41B8D1B2CCBE2BD0042FD90 /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B8D142CCBE2BD0042FD90 /* MyImage.swift */; };
 		E41B8D1C2CCBE2BD0042FD90 /* ZoomTransitionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B8D152CCBE2BD0042FD90 /* ZoomTransitionsApp.swift */; };
+		E41B8D1F2CCBE3C60042FD90 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B8D1E2CCBE3C60042FD90 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		E41B8D132CCBE2BD0042FD90 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		E41B8D142CCBE2BD0042FD90 /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
 		E41B8D152CCBE2BD0042FD90 /* ZoomTransitionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomTransitionsApp.swift; sourceTree = "<group>"; };
+		E41B8D1E2CCBE3C60042FD90 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		E41B8D112CCBE2BD0042FD90 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E41B8D1E2CCBE3C60042FD90 /* DetailView.swift */,
 				E41B8D102CCBE2BD0042FD90 /* PhotoGridView.swift */,
 			);
 			path = Views;
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41B8D1A2CCBE2BD0042FD90 /* PhotoGridView.swift in Sources */,
+				E41B8D1F2CCBE3C60042FD90 /* DetailView.swift in Sources */,
 				E41B8D1B2CCBE2BD0042FD90 /* MyImage.swift in Sources */,
 				E41B8D1C2CCBE2BD0042FD90 /* ZoomTransitionsApp.swift in Sources */,
 			);
