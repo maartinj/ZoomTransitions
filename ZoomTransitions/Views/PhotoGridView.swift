@@ -16,6 +16,7 @@
 import SwiftUI
 
 struct PhotoGridView: View {
+    @Namespace private var transitionNamespace
     let columns = [GridItem(.adaptive(minimum: 175))]
     var body: some View {
         NavigationStack {
@@ -29,12 +30,14 @@ struct PhotoGridView: View {
                                 .frame(width: 175, height: 175)
                                 .clipShape(RoundedRectangle(cornerRadius: 10))
                                 .shadow(radius: 5)
+                                .matchedTransitionSource(id: photo, in: transitionNamespace)
                         }
                     }
                 }
             }
             .navigationDestination(for: MyImage.self) { image in
                 DetailView(image: image)
+                    .navigationTransition(.zoom(sourceID: image, in: transitionNamespace))
             }
             .navigationTitle("My Images")
             .padding()

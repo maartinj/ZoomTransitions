@@ -65,8 +65,8 @@
 		E41B8D112CCBE2BD0042FD90 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E41B8D1E2CCBE3C60042FD90 /* DetailView.swift */,
 				E41B8D102CCBE2BD0042FD90 /* PhotoGridView.swift */,
+				E41B8D1E2CCBE3C60042FD90 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
