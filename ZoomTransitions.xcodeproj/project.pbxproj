@@ -3,16 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		E41B8D172CCBE2BD0042FD90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41B8D0E2CCBE2BD0042FD90 /* Preview Assets.xcassets */; };
+		E41B8D182CCBE2BD0042FD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41B8D122CCBE2BD0042FD90 /* Assets.xcassets */; };
+		E41B8D192CCBE2BD0042FD90 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41B8D132CCBE2BD0042FD90 /* Launch Screen.storyboard */; };
+		E41B8D1A2CCBE2BD0042FD90 /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B8D102CCBE2BD0042FD90 /* PhotoGridView.swift */; };
+		E41B8D1B2CCBE2BD0042FD90 /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B8D142CCBE2BD0042FD90 /* MyImage.swift */; };
+		E41B8D1C2CCBE2BD0042FD90 /* ZoomTransitionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41B8D152CCBE2BD0042FD90 /* ZoomTransitionsApp.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BBA325552C46E302002CE394 /* ZoomTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41B8D0E2CCBE2BD0042FD90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E41B8D102CCBE2BD0042FD90 /* PhotoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
+		E41B8D122CCBE2BD0042FD90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E41B8D132CCBE2BD0042FD90 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E41B8D142CCBE2BD0042FD90 /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
+		E41B8D152CCBE2BD0042FD90 /* ZoomTransitionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomTransitionsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BBA325572C46E302002CE394 /* ZoomTransitions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ZoomTransitions; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BBA325522C46E302002CE394 /* Frameworks */ = {
@@ -28,7 +39,7 @@
 		BBA3254C2C46E302002CE394 = {
 			isa = PBXGroup;
 			children = (
-				BBA325572C46E302002CE394 /* ZoomTransitions */,
+				E41B8D162CCBE2BD0042FD90 /* ZoomTransitions */,
 				BBA325562C46E302002CE394 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +50,43 @@
 				BBA325552C46E302002CE394 /* ZoomTransitions.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E41B8D0F2CCBE2BD0042FD90 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E41B8D0E2CCBE2BD0042FD90 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E41B8D112CCBE2BD0042FD90 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E41B8D102CCBE2BD0042FD90 /* PhotoGridView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E41B8D162CCBE2BD0042FD90 /* ZoomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				E41B8D152CCBE2BD0042FD90 /* ZoomTransitionsApp.swift */,
+				E41B8D112CCBE2BD0042FD90 /* Views */,
+				E41B8D1D2CCBE2CD0042FD90 /* Models */,
+				E41B8D0F2CCBE2BD0042FD90 /* Preview Content */,
+				E41B8D122CCBE2BD0042FD90 /* Assets.xcassets */,
+				E41B8D132CCBE2BD0042FD90 /* Launch Screen.storyboard */,
+			);
+			path = ZoomTransitions;
+			sourceTree = "<group>";
+		};
+		E41B8D1D2CCBE2CD0042FD90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E41B8D142CCBE2BD0042FD90 /* MyImage.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,9 +103,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BBA325572C46E302002CE394 /* ZoomTransitions */,
 			);
 			name = ZoomTransitions;
 			packageProductDependencies = (
@@ -104,6 +149,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41B8D172CCBE2BD0042FD90 /* Preview Assets.xcassets in Resources */,
+				E41B8D182CCBE2BD0042FD90 /* Assets.xcassets in Resources */,
+				E41B8D192CCBE2BD0042FD90 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41B8D1A2CCBE2BD0042FD90 /* PhotoGridView.swift in Sources */,
+				E41B8D1B2CCBE2BD0042FD90 /* MyImage.swift in Sources */,
+				E41B8D1C2CCBE2BD0042FD90 /* ZoomTransitionsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +298,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZoomTransitions/Preview Content\"";
-				DEVELOPMENT_TEAM = RKV4UP49S6;
+				DEVELOPMENT_TEAM = 4P4GQMB6S7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -261,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.createchsol.ZoomTransitions;
+				PRODUCT_BUNDLE_IDENTIFIER = mj.sl.ZoomTransitions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -277,7 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZoomTransitions/Preview Content\"";
-				DEVELOPMENT_TEAM = RKV4UP49S6;
+				DEVELOPMENT_TEAM = 4P4GQMB6S7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -291,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.createchsol.ZoomTransitions;
+				PRODUCT_BUNDLE_IDENTIFIER = mj.sl.ZoomTransitions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
